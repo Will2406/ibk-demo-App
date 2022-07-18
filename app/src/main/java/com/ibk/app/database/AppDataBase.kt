@@ -6,7 +6,6 @@ import com.ibk.app.database.dao.AccountDao
 import com.ibk.app.database.dao.MovementDao
 import com.ibk.app.database.dao.UserDao
 import com.ibk.app.database.dto.AccountEntity
-import com.ibk.app.database.dto.AccountWithMovements
 import com.ibk.app.database.dto.MovementEntity
 import com.ibk.app.database.dto.UserEntity
 

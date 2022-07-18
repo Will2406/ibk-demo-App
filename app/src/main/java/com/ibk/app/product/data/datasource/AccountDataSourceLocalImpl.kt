@@ -2,17 +2,12 @@ package com.ibk.app.product.data.datasource
 
 import com.ibk.app.database.AppDataBase
 import com.ibk.app.database.dto.AccountEntity
-import com.ibk.app.database.dto.AccountWithMovements
-import com.ibk.app.database.dto.MovementEntity
-import com.ibk.app.database.dto.UserEntity
 import com.ibk.app.product.data.datasource.dto.AccountLocalDto
 import com.ibk.app.product.data.mapper.convertToLocal
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import java.util.*
 import javax.inject.Inject
-import kotlin.random.Random
 
 class AccountDataSourceLocalImpl @Inject constructor(private val database: AppDataBase) : AccountDataSourceLocal {
 

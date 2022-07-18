@@ -3,7 +3,7 @@ package com.ibk.app.database.dto
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import java.time.LocalDate
+
 
 @Entity(tableName = "Movement")
 data class MovementEntity(

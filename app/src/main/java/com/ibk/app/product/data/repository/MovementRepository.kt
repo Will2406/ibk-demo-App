@@ -1,6 +1,5 @@
 package com.ibk.app.product.data.repository
 
-import com.ibk.app.product.data.datasource.AccountDataSourceLocal
 import com.ibk.app.product.data.datasource.MovementDataSourceLocal
 import com.ibk.app.product.data.mapper.convertToModel
 import com.ibk.app.product.domain.model.Movement

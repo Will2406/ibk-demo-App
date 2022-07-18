@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.ibk.app.databinding.ItemMovementBinding
-import com.ibk.app.product.domain.model.Account
 import com.ibk.app.product.domain.model.Movement
 
 class MovementAdapter : ListAdapter<Movement, MovementAdapter.ViewHolder>(AccountDiffCallback()) {

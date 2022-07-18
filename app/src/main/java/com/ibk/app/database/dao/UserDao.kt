@@ -5,8 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import com.ibk.app.database.dto.UserEntity
-import com.ibk.app.login.data.datasource.dto.UserLocalDto
-import com.ibk.app.login.data.datasource.dto.UserRequestDto
+
 
 @Dao
 interface UserDao {

@@ -4,13 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.viewModels
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.ibk.app.core.HandlerSession
 import com.ibk.app.databinding.ActivityAccountBinding
 import com.ibk.app.login.ui.LoginActivity
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
+
 
 @AndroidEntryPoint
 class AccountActivity : AppCompatActivity() {

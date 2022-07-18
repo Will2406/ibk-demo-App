@@ -12,7 +12,6 @@ import com.ibk.app.product.domain.usecase.GetMovements
 import com.ibk.app.product.domain.usecase.UpdateAccounts
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
@@ -53,6 +52,5 @@ class AccountViewModel @Inject constructor(
             _movements.postValue(response)
         }
     }
-
 
 }

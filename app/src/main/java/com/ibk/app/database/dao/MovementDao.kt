@@ -1,8 +1,6 @@
 package com.ibk.app.database.dao
 
 import androidx.room.*
-import com.ibk.app.database.dto.AccountEntity
-import com.ibk.app.database.dto.AccountWithMovements
 import com.ibk.app.database.dto.MovementEntity
 
 @Dao

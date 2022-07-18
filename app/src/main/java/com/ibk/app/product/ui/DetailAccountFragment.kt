@@ -6,13 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.ViewModel
-import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ibk.app.R
 import com.ibk.app.databinding.FragmentDetailAccountBinding
-import com.ibk.app.product.domain.model.Account
-import com.ibk.app.product.ui.adapter.AccountListener
 import com.ibk.app.product.ui.adapter.MovementAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
